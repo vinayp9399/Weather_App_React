@@ -9,6 +9,7 @@
     "react-scripts": "^3.0.1"
   },
   "scripts": {
+    "dev": "npm run serve",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -28,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "node": "^16.0.0"
   }
 }
